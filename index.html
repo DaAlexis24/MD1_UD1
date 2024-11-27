@@ -1,70 +1,104 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
+  <!-- 
+  Copiado del ejercicio web.sample
+  para continuar los ejemplos
+-->
+
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="description" content="Ejemplo de página web" />
+    <meta
+      name="description"
+      content="Ejemplo de sitio Web básico para un curso de HTML"
+    />
+    <title>Ejercicio 1 - Curso Web</title>
     <link rel="shortcut icon" href="favicon-32x32.png" type="image/png" />
-    <meta property="og:title" content="Ejercicio 1 en HTML" />
-    <meta property="og:description" content="Ejemplo de página web" />
+    <meta property="og:title" content="Primer ejercicio del curso de HTML" />
+    <meta
+      property="og:description"
+      content="Primer ejercicio del curso de HTML"
+    />
+    <meta
+      property="og:image"
+      content="https://alce65.github.io/web.sample.2024/assets/world.logo.png"
+    />
     <meta
       property="og:url"
-      content="https://daalexis24.github.io/web_sample_DS_2024/"
+      content="https://alce65.github.io/web.sample.2024/"
     />
-    <meta property="og:image" content="./assets/world.logo.png" />
     <style>
       a {
         text-decoration: none;
+        padding: 1rem;
       }
     </style>
-    <title>Web Sample</title>
+    <script defer src="./scripts/index.js"></script>
   </head>
+
   <body>
-    <!-- En HEADER se colocan los elementos de introducción de la pagina, por ello solo hay una en el body -->
     <header>
-      <h1>EJEMPLO DE PÁGINA WEB</h1>
+      <h1>Ejercicio 1 - Curso Web</h1>
       <p>Presentación</p>
       <p>Navegación</p>
       <p>Búsqueda</p>
     </header>
-    <p>Esto es un párrafo</p>
-    <p>
-      Nulla elit dolor tempor ipsum incididunt laborum enim sit Lorem. Deserunt
-      consequat veniam exercitation nulla commodo enim ut culpa tempor sint.
-      Labore fugiat magna anim laborum nulla ad eu aute. Duis excepteur
-      exercitation duis anim. Commodo exercitation Lorem laborum aliquip tempor
-      ullamco aute pariatur labore.
-    </p>
-    <p>
-      Occaecat non nulla dolor occaecat. Nulla nisi est ut cupidatat qui ut
-      occaecat cillum laborum. Elit duis sunt nostrud mollit. Nostrud quis in
-      officia velit veniam culpa et ut magna in fugiat officia ullamco ea.
-      Occaecat exercitation ullamco veniam amet. Nisi proident sint do aliqua
-      aliqua officia esse Lorem laboris elit. Sunt reprehenderit non aliquip
-      exercitation ullamco et minim veniam exercitation minim.
-    </p>
-    <p>
-      Officia nostrud nisi sunt anim exercitation consequat elit consequat sint
-      voluptate veniam magna. Dolor ea ut laboris reprehenderit adipisicing.
-      Exercitation mollit culpa consectetur culpa tempor laboris anim aliqua
-      nostrud Lorem in ut est et.
-    </p>
-    <p>Nunca se usa BR para el salto de pagina</p>
-    <p>Nunca se usa HR para el salto de parrafo</p>
-    <hr />
-    <p>
-      Cum aut eaque quia odit beatae qui esse provident suscipit soluta
-      quibusdam a blanditiis eos minima explicabo nemo, laboriosam maxime itaque
-      nesciunt ea quam. Hic officiis accusamus fuga aut reprehenderit?
-    </p>
-    <p>
-      Dolore non eius omnis suscipit, quaerat quae veritatis, repellendus maxime
-      labore sequi, fugit quasi ea! Corporis repudiandae quas cum quisquam. In
-      pariatur id sint quos aut perferendis totam doloremque quo.
-    </p>
-    <section>
+
+    <article>
+      <!-- <hgroup>
+      <h2>Nuestra primera etiqueta html</h2>
+      <p>El párrafo</p>
+    </hgroup> -->
+
+      <header>
+        <h2>
+          Nuestra primera etiqueta html
+          <span style="display: block">El párrafo</span>
+        </h2>
+      </header>
+      <a href="./assets/facebook.svg">Facebook !!!!!!!</a>
+      <pre>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+      Laudantium blanditiis nemo consectetur numquam,
+      iure odit corrupti saepe. 
+      Omnis consequuntur sed facere nobis exercitationem 
+      accusamus ab eaque dolores deleniti. 
+      Tempora, sit?
+    </pre
+      >
+      <blockquote cite="https://mdn.com/foo.html">
+        El <time datetime="1833-12-25">dia de Navidad</time> Velit animi,
+        <data value="3.14">pi</data>quae eum dolorem obcaecati a quisquam
+        excepturi magnam suscipit ipsa provident nemo eaque saepe nostrum magni,
+        eveniet rem nobis voluptatibus maiores doloremque earum incidunt quis
+        eius. Eveniet, deserunt!
+        <cite>https://mdn.com/foo.html</cite>
+      </blockquote>
+      <p>
+        <abbr title="Naciones Unidas">ONU</abbr>: Culpa mollitia, dolore
+        perspiciatis voluptatibus obcaecati asperiores ex atque eius autem
+        suscipit quo rem quae deleniti quaerat recusandae praesentium libero
+        aperiam qui ducimus dolor facilis fugiat! Itaque a voluptas omnis?
+      </p>
+      <p>No usamos br para separar párrafos</p>
+      <p>No usamos hr para separar bloques de contenido</p>
+      <hr />
+      <h3>Mas info sobre párrafos</h3>
+      <p>
+        Cum aut eaque quia odit beatae qui esse provident suscipit soluta
+        quibusdam a blanditiis eos minima explicabo nemo, laboriosam maxime
+        itaque nesciunt ea quam. Hic officiis accusamus fuga aut reprehenderit?
+      </p>
+      <p>
+        Dolore non eius omnis suscipit, quaerat quae veritatis, repellendus
+        maxime labore sequi, fugit quasi ea! Corporis repudiandae quas cum
+        quisquam. In pariatur id sint quos aut perferendis totam doloremque quo.
+      </p>
+    </article>
+
+    <section id="listas">
       <h2>Listas</h2>
-      <section>
+      <section id="usuarios">
         <h3>Usuarios</h3>
         <ol>
           <li>Luis</li>
@@ -72,8 +106,14 @@
           <li>Ernestina</li>
         </ol>
       </section>
-      <section>
-        <h3>Comidas favoritas</h3>
+      <section id="comidas">
+        <!-- - Agrega una lista desordenada con 3 elementos
+    cada uno con una lista anidada con 3 elementos -->
+        <header>
+          <h3>Comidas favoritas</h3>
+          <p>Menu de la seccion</p>
+        </header>
+
         <ul>
           <li>
             Luis
@@ -92,7 +132,7 @@
             </ol>
           </li>
           <li>
-            Ernestina
+            Ennestina
             <ol>
               <li>Cocido</li>
               <li>Pollo asado</li>
@@ -103,29 +143,130 @@
       </section>
     </section>
 
-    <!-- - Agrega una lista desordenada con 3 elementos
-   cada uno con una lista anidada con 3 elementos -->
-
-    <h2>Más información</h2>
     <img
       width="200"
       height="200"
       src="assets/world.logo.png"
       alt="Imagen básica del mundo"
     />
-    <h3>Buscador</h3>
+    <h3>Buscar</h3>
     <ol>
-      <li><a href="https://google.com" target="_blank">Google</a></li>
+      <li><a href="https://google.com" target="_blank">Google </a></li>
       <li><a href="https://bing.com">Bing</a></li>
-      <li><a href="https://duckduckgo.com">DuckDuckGo</a></li>
+      <li><a href="https://DuckDuckGo.com">DuckDuckGo</a></li>
     </ol>
-    <!-- FOOTER: Información sobre la autoria de la página, normalmente va al pie de la página -->
+
+    <section>
+      <h2>Elemnetos embebidos</h2>
+      <video src="assets/world_MP4_480_1_5MG.mp4" controls></video>
+
+      <iframe src="https://github.com/alce65" frameborder="0"></iframe>
+      <iframe
+        width="560"
+        height="315"
+        src="https://www.youtube.com/embed/bDtxF7qSofg?si=DGh0UrsASst9X01K"
+      ></iframe>
+    </section>
+
+    <section>
+      <h2>Paises</h2>
+      <table border="1">
+        <caption>
+          Sur Europa
+        </caption>
+        <thead>
+          <tr>
+            <th></th>
+            <th>España</th>
+            <th>Francia</th>
+            <th>Portugal</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th>Extensión</th>
+            <td>36354287</td>
+            <td></td>
+            <td>456364</td>
+          </tr>
+          <tr>
+            <th>Capital</th>
+            <td>Madrid</td>
+            <td>Paris</td>
+            <td>Lisboa</td>
+          </tr>
+        </tbody>
+        <tfoot>
+          <tr>
+            <th>Estructura</th>
+            <td>M</td>
+            <td colspan="2">R</td>
+          </tr>
+        </tfoot>
+      </table>
+    </section>
+
+    <section>
+      <h2>Formularios</h2>
+      <form>
+        <fieldset>
+          <legend>Datos personales</legend>
+          <div>
+            <label>
+              <span>Nombre</span>
+              <input
+                type="text"
+                name="firstname"
+                placeholder="Dime tu nombre"
+              />
+            </label>
+          </div>
+          <div>
+            <label for="surname">Apellidos</label>
+            <input
+              type="text"
+              name="surname"
+              id="surname"
+              placeholder="Dime tu apellido"
+            />
+          </div>
+          <div>
+            <label>
+              Contraseña
+              <input type="password" name="passwd" placeholder="Contraseña" />
+            </label>
+          </div>
+        </fieldset>
+        <fieldset>
+          <legend>Datos comerciales</legend>
+          <label>
+            <input type="checkbox" name="isOk" required />
+            <span>Estoy deacuerdo con ....</span>
+          </label>
+          <fieldset>
+            <legend>Turno</legend>
+            <label> <input type="radio" name="turn" value="M" />Mañana </label>
+            <label> <input type="radio" name="turn" value="T" />Tarde </label>
+            <label> <input type="radio" name="turn" value="N" />Noche </label>
+          </fieldset>
+          <label
+            >Curso
+            <select name="course" multiple>
+              <option value=""></option>
+              <option value="HC">HTML - CSS</option>
+              <option value="JS">JavaScript</option>
+            </select>
+          </label>
+        </fieldset>
+
+        <button type="submit">Enviar</button>
+      </form>
+    </section>
     <footer>
-      <p>Si quieres contactarme:</p>
-      <!-- SVG ES UNA VARIACIÓN DE LENGUAJE DE MARCADO -->
+      <p>Si quieres conatactarme:</p>
       <p>
-        <a href="https://facebook.com" title="Facebook" target="_blank">
-          <svg width="50" height="50">
+        <a href="https://facebook.com" title="facebook" target="_blank">
+          <svg width="30" height="30">
             <g>
               <path
                 d="M24,12.073c0,5.989-4.394,10.954-10.13,11.855v-8.363h2.789l0.531-3.46H13.87V9.86c0-0.947,0.464-1.869,1.95-1.869h1.509   V5.045c0,0-1.37-0.234-2.679-0.234c-2.734,0-4.52,1.657-4.52,4.656v2.637H7.091v3.46h3.039v8.363C4.395,23.025,0,18.061,0,12.073   c0-6.627,5.373-12,12-12S24,5.445,24,12.073z"
@@ -133,8 +274,8 @@
             </g>
           </svg>
         </a>
-        <a href="https://linkedin.com" title="LinkedIn" target="_blank">
-          <svg width="50" height="50">
+        <a href="https://linkedin.com" title="linkedin" target="_blank">
+          <svg width="30" height="30">
             <g>
               <path
                 id="Path_2525"
@@ -151,8 +292,8 @@
             </g>
           </svg>
         </a>
-        <a href="https://twitter.com" title="Twitter" target="_blank">
-          <svg width="50" height="50">
+        <a href="https://x.com" title="twiter" target="_blank">
+          <svg width="30" height="30">
             <g>
               <path
                 id="Logo_00000038394049246713568260000012923108920998390947_"
